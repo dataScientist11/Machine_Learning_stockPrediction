@@ -27,9 +27,9 @@ import numpy as np
 # This returns an error ("unhashable type: set")
 # df2 = df[my_cols]
 #'date', 'S1'
-X = [df[0:101][val].values for val in df.columns if val != 'date' and val != 'S1']
+X = [df[0:50][val].values for val in df.columns if val != 'date' and val != 'S1']
 #print 'X = {}'.format(X)
-y = df[0:101]['S1'].values
+y = df[0:50]['S1'].values
 #print X
 #print 'dimensions of X = {},{}, dimensions of y = {},{}'.format(len(X),len(X[0]),len(y),len(y[0])) 
 
