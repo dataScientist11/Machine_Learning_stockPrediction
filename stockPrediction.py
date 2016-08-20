@@ -1,7 +1,4 @@
-import pandas as pd
 from sklearn.decomposition import PCA
-import numpy as np 
-import random
 from sklearn.grid_search import GridSearchCV
 from sklearn import cross_validation
 from sklearn.linear_model import LogisticRegression
@@ -9,6 +6,9 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import VotingClassifier
 from sklearn.neighbors import KNeighborsClassifier
+import numpy as np 
+import random
+import pandas as pd
 
 df = pd.read_csv('stock_returns_base150.csv', skipinitialspace=True)
 df = df[0:100]
