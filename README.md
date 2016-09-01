@@ -1,6 +1,6 @@
 # stockPrediction
 
-### For this project the dependencies i used were: 
+### For this project the dependencies I used were: 
 
 from sklearn.grid_search import GridSearchCV
 from sklearn import grid_search
